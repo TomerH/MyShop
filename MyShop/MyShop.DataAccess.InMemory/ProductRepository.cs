@@ -40,7 +40,8 @@ namespace MyShop.DataAccess.InMemory
             if (productToUpdate != null)
             {
                 productToUpdate = product;
-            } else
+            }
+            else
             {
                 throw new Exception("Product not found");
             }
